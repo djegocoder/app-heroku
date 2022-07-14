@@ -1,0 +1,1 @@
+web: python bet.py runserver 0.0.0.0:5000
