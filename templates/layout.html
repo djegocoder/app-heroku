@@ -7,13 +7,16 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
   <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  <link ref="stylesheet" href="{{url_for('static',filename='main.css')}}" type="text/css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
+
   <title>Diego Tadeu</title>
 </head>
 
 <body>
   <nav class="navbar navbar-expand-lg navbar-dark bg-secondary">
     <div class="container-fluid">
-      <a class="navbar-brand" href="#">Diego Tadeu</a>
+      <a class="navbar-brand" style="font-size:2rem ;padding: 1rem;" href="#">Diego Tadeu</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
         aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -24,19 +27,15 @@
             <a class="nav-link text-white">Apresentação</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link text-white">Redes</a>
+            <a class="nav-link text-white">Projeto Previsão Bets</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link text-white">Portifólio</a>
+            <a class="nav-link text-white">Projeto SQL</a>
           </li>
         </ul>
       </div>
     </div>
   </nav>
-
-  <div class="site-header-logo">
-    <h2 class="text-center"> </h2>
-  </div>
 
   <div class="card m-auto mb-3" style="max-width: 90%;">
     <div class="row g-0">
@@ -46,44 +45,34 @@
       <div class="col-md-10">
         <div class="card-body">
           <h3 class="card-title">Apresentação</h3>
-          <p class="card-text">Tenho experiência de 15 anos na manutenção aeronáutica como técnico em química, fazendo reparos em peças
-             com proteção superficial. Enquanto eu trabalhava, fiz o meu curso de graduação em física na UFRGS. Meu TCC foi com simulação
-              computacional. Tive muitas aulas de cálculo numérico usando linux e Fortran e C. Fiz pós-graduação em 
-              <a src="https://esab.edu.br/cursos-de-extensao-e-qualificacao-ead/gestao-em-engenharia-avancada-e-computadores-295/"> 
-                Gestão em Engenharia Avançada e Computadores</a>. Estou concluindo o Mestrado em Ciência dos Materiais onde trabalhei com o 
-                pacote Quantum ESPRESSO para palcular propriedades de materiais usando a teoria do funcional da densidade.</p>
+          <p class="card-text">Tenho experiência de 15 anos na manutenção aeronáutica como técnico em química, fazendo
+            reparos em peças
+            com proteção superficial. Enquanto eu trabalhava, fiz o meu curso de graduação em física na UFRGS. Meu TCC
+            foi com simulação
+            computacional. Tive muitas aulas de cálculo numérico usando linux e Fortran e C. Fiz pós-graduação em
+            <a
+              src="https://esab.edu.br/cursos-de-extensao-e-qualificacao-ead/gestao-em-engenharia-avancada-e-computadores-295/">
+              Gestão em Engenharia Avançada e Computadores</a>. Estou concluindo o Mestrado em Ciência dos Materiais
+            onde trabalhei com o
+            pacote Quantum ESPRESSO para palcular propriedades de materiais usando a teoria do funcional da densidade.
+          </p>
           <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+          <p class="text-end">
+            <a href="https://www.kaggle.com/diegotad" style="text-decoration:none ;"><i class="devicon-kaggle-original-wordmark colored" style="font-size:3rem ;"></i></a>
+            <a href="https://github.com/djegocoder" style="text-decoration:none ;"><i class="devicon-github-original-wordmark colored" style="font-size:3rem ;"></i></a>
+            <a href="https://www.linkedin.com/in/diego-tadeu/" style="text-decoration:none ;"><i class="devicon-linkedin-plain-wordmark colored" style="font-size:3rem ;"></i></a>
+          </p>
         </div>
       </div>
     </div>
+  </div>
   </div>
 
   <div class="card m-auto mb-3" style="max-width: 90%;">
     <div class="row g-0">
       <div class="col-md-12">
         <div class="card-body">
-          <h3 class="card-title">Redes</h3>
-          <div class="row align-items-center">
-            <div class="col">
-              Kaggle
-            </div>
-            <div class="col">
-              Github
-            </div>
-            <div class="col">
-              Linkedin
-            </div>
-            <div class="col">
-              Rechearch gate 
-            </div>
-            <div class="col">
-              Heroku
-            </div>
-            <div class="col">
-              YouTube
-            </div>
-          </div>
-        
+
         </div>
       </div>
     </div>
@@ -95,7 +84,9 @@
         <div class="col-md-12 col-sm-12 col-xm-12">
           <div class="m-auto mr-auto">
             <div class="card-bory sd-8">
-              <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed fugiat soluta corrupti molestiae nemo accusamus unde reprehenderit nisi voluptate enim asperiores ratione at culpa animi possimus numquam praesentium, adipisci autem.</p>
+              <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed fugiat soluta corrupti
+                molestiae nemo accusamus unde reprehenderit nisi voluptate enim asperiores ratione at culpa animi
+                possimus numquam praesentium, adipisci autem.</p>
             </div>
             <div id='chart' class='card-body sd-8' ”></div>
           </div>
