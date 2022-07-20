@@ -7,23 +7,10 @@ import os
 from flask import Flask, render_template
 
 app = Flask(__name__)
-#app = Dash(__name__)
 
 df = pd.read_csv('static/planilha.csv')
 fig = px.bar(df, x="Times", y="Sigla", color="Bet", barmode="group")
 graphJSON = json.dumps(fig, cls=plotly.utils.PlotlyJSONEncoder)
-
-#app.layout = html.Div(children=[
-#    html.H1(children='Hello Dash'),
-#
-#    html.Div(children='''
-#        Dash: A web application framework for your data.
-#    '''),
-#    dcc.Graph(
-#        id='example-graph',
-#        figure=fig
-#    )
-#])
 
 @app.route("/")
 def index():
