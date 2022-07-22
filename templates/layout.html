@@ -14,53 +14,78 @@
 </head>
 
 <body>
-  <nav class="navbar navbar-expand-lg navbar-dark bg-secondary">
-    <div class="container-fluid">
-      <a class="navbar-brand" style="font-size:2rem ;padding: 1rem;" href="#">Diego Tadeu</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
-        aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbar-Text">
-        <ul class="navbar-nav ml-auto mb-2 mb-lg-0">
-          <li class="nav-item">
-            <a class="nav-link text-white">Apresentação</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link text-white">Projeto Previsão Bets</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link text-white">Projeto SQL</a>
-          </li>
-        </ul>
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-secondary">
+      <div class="container-fluid">
+        <a class="navbar-brand" style="font-size:2rem ;padding: 1rem;" href="https://diego-tadeu.herokuapp.com/">Diego
+          Tadeu</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
+          aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbar-Text">
+          <ul class="navbar-nav ml-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#apresentacao">Apresentação</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#bets">Projeto Previsão Bets</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white">Projeto SQL</a>
+            </li>
+          </ul>
+        </div>
       </div>
-    </div>
-  </nav>
+    </nav>
+  </header>
 
   <div class="card m-auto mb-3" style="max-width: 90%;">
     <div class="row g-0">
-      <div class="col-md-2">
-        <img src="static/diegotadeu.png" class="img-fluid rounded-start" alt="...">
+      <div class="col-sm-2 col-md-2 col-xm-2">
+        <img src="static/diegotadeu.png" class="img-fluid rounded-midle" alt="Foto">
       </div>
-      <div class="col-md-10">
+      <div class="col-sm-10 col-md-10 col-xm-10">
         <div class="card-body">
-          <h3 class="card-title">Apresentação</h3>
-          <p class="card-text">Tenho experiência de 15 anos na manutenção aeronáutica como técnico em química, fazendo
-            reparos em peças
-            com proteção superficial. Enquanto eu trabalhava, fiz o meu curso de graduação em física na UFRGS. Meu TCC
-            foi com simulação
-            computacional. Tive muitas aulas de cálculo numérico usando linux e Fortran e C. Fiz pós-graduação em
-            <a
-              src="https://esab.edu.br/cursos-de-extensao-e-qualificacao-ead/gestao-em-engenharia-avancada-e-computadores-295/">
-              Gestão em Engenharia Avançada e Computadores</a>. Estou concluindo o Mestrado em Ciência dos Materiais
-            onde trabalhei com o
-            pacote Quantum ESPRESSO para palcular propriedades de materiais usando a teoria do funcional da densidade.
+          <h3 class="card-title m-auto" id="apresentacao">Apresentação</h3>
+          <p class="card-text">Oi! Prazer em conhecer, me chamo Diego e tenho experiência de 15 anos na manutenção
+            aeronáutica como técnico em química, fazendo
+            reparos em peças com proteção superficial. Enquanto eu trabalhava, fiz o meu curso de graduação em física na
+            UFRGS. Meu TCC
+            foi com simulação computacional. Tive muitas aulas de cálculo numérico usando linux, Fortran e C. Estou
+            concluindo o Mestrado em Ciência dos Materiais
+            onde trabalhei com o pacote Quantum ESPRESSO para palcular propriedades de materiais usando a teoria do
+            funcional da densidade.
           </p>
-          <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-          <p class="text-end">
-            <a href="https://www.kaggle.com/diegotad" style="text-decoration:none ;"><i class="devicon-kaggle-original-wordmark colored" style="font-size:3rem ;"></i></a>
-            <a href="https://github.com/djegocoder" style="text-decoration:none ;"><i class="devicon-github-original-wordmark colored" style="font-size:3rem ;"></i></a>
-            <a href="https://www.linkedin.com/in/diego-tadeu/" style="text-decoration:none ;"><i class="devicon-linkedin-plain-wordmark colored" style="font-size:3rem ;"></i></a>
+          <p class="card-text">Estou tentando uma transição de carreira, como tenho experiência em computação e sobrios
+            conhecimentos em matemática, estatística
+            e análise de contexto e generalização de problemas, sinto que terei facilidade para migrar para a ciência de
+            dados.</p>
+          <p class="card-text">A primeira impressão, tive a sensação de redundância, qual cientista não avalia dados?
+            Esse é o método ciêntífico, testar hipóteses
+            sobre resultados, os dados. Mas no contexto de TI, dados é uma expressão técnica e se utiliza métodos
+            específicos para explorá-los.
+          </p>
+          <p class="card-text">Há uns 2 anos comecei a explorar essa área, mas nesse último ano passei a me dedicar mais
+            a aprender python e suas bibliotecas específicas para o aprendizado de máquima. Ainda estou
+            aprendendo boas práticas e outras linguagens necessárias como SQL, Hadoop, um pouco de front-end e back-end
+            e pretendo com esse app no Heroku desenvolver
+            capacidades em CI/CD, storytelling, dashboards, webscraping e contruir um pequeno portifílio com o meu
+            avanço.</p>
+          <p class="card-text"><small class="text-muted">Aproveitem!</small></p>
+          <p class="card-text text-end">
+            <a href="https://www.kaggle.com/diegotad" style="text-decoration:none;">
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/kaggle/kaggle-original.svg"
+                style="height:3em;" alt="Kaggle" />
+            </a>
+            <a href="https://github.com/djegocoder" style="text-decoration:none ;">
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original-wordmark.svg"
+                style="height:3em;" alt="GitHub" />
+            </a>
+            <a href="https://www.linkedin.com/in/diego-tadeu/" style="text-decoration:none;">
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg"
+                style="height:3em;" alt="LinkedIn" />
+            </a>
           </p>
         </div>
       </div>
@@ -68,18 +93,25 @@
   </div>
   </div>
 
-  <div class="card m-auto mb-3" style="max-width: 90%;">
-    <div class="row g-0">
-      <div class="col-md-12">
-        <div class="card-body">
+  <main>
 
+    <div class="card m-auto mb-3" data-aos="fade-left" style="max-width: 90%;">
+      <div class="row g-0">
+        <div class="col-md-12">
+          <div class="card-body">
+            <h3 class="card-title m-auto mb-auto ml-auto" class="container" id="bets">Projeto Previsão Bets</h3>
+            <p class="card-text">Qual é a brincadeira? É o seguinte, é possível prever as ODDs das plataformas de apostas?</p>
+            <p class="card-text">Depois de um ajuste jurídico na legislação brasileira, as plataformas de apostas esportivas cresceram muito. Um reflexo 
+              bem notável é no patrocínio do campeonato brasileiro de futebol masculino série a. Cada um dos 20 times da série a de 2022 tem o patrocínio de uma plataforma de aposta.
+            </p>
+          </div>
         </div>
       </div>
     </div>
-  </div>
 
-  <main data-aos="fade-left">
-    <div class="container">
+    
+
+    <div class="container" data-aos="fade-left">
       <div class="row">
         <div class="col-md-12 col-sm-12 col-xm-12">
           <div class="m-auto mr-auto">
