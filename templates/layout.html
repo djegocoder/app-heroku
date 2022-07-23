@@ -7,7 +7,7 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
   <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-  <link ref="stylesheet" href="{{url_for('static',filename='main.css')}}" type="text/css" />
+  <link ref="stylesheet" href="static/main.css" type="text/css" />
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
 
   <title>Diego Tadeu</title>
@@ -41,13 +41,12 @@
   </header>
 
   <div class="card m-auto mb-3" style="max-width: 90%;">
-    <div class="row g-0">
-      <div class="col-sm-2 col-md-2 col-xm-2">
-        <img src="static/diegotadeu.png" class="img-fluid rounded-midle" alt="Foto">
-      </div>
-      <div class="col-sm-10 col-md-10 col-xm-10">
-        <div class="card-body">
-          <h3 class="card-title m-auto" id="apresentacao">Apresentação</h3>
+    <div class="clearfix">
+      <div class="col-sm-12 col-md-12 col-xm-12">
+        <div class="card-body m-auto">
+          <img src="static/diegotadeu.png" class="col-md-2 float-md-start" style="padding: 2em; ;" alt="Foto">
+          <h3 class="card-title col-sm-10" id="apresentacao">Apresentação</h3>
+          <p></p>
           <p class="card-text">Oi! Prazer em conhecer, me chamo Diego e tenho experiência de 15 anos na manutenção
             aeronáutica como técnico em química, fazendo
             reparos em peças com proteção superficial. Enquanto eu trabalhava, fiz o meu curso de graduação em física na
@@ -95,36 +94,106 @@
 
   <main>
 
-    <div class="card m-auto mb-3" data-aos="fade-left" style="max-width: 90%;">
+    <div class="card m-auto mb-3" data-aos="zoom-in" style="max-width: 90%;">
       <div class="row g-0">
         <div class="col-md-12">
           <div class="card-body">
             <h3 class="card-title m-auto mb-auto ml-auto" class="container" id="bets">Projeto Previsão Bets</h3>
-            <p class="card-text">Qual é a brincadeira? É o seguinte, é possível prever as ODDs das plataformas de apostas?</p>
-            <p class="card-text">Depois de um ajuste jurídico na legislação brasileira, as plataformas de apostas esportivas cresceram muito. Um reflexo 
-              bem notável é no patrocínio do campeonato brasileiro de futebol masculino série a. Cada um dos 20 times da série a de 2022 tem o patrocínio de uma plataforma de aposta.
+            <p class="card-text">Qual é a brincadeira? É a seguinte, é possível prever as ODDs das plataformas de
+              apostas?</p>
+            <p class="card-text">Depois de um ajuste jurídico na legislação brasileira, as plataformas de apostas
+              esportivas cresceram muito. Um reflexo
+              bem notável é no patrocínio do campeonato brasileiro de futebol masculino série a. Cada um dos 20 times da
+              série a de 2022 tem o patrocínio de uma plataforma de aposta.
             </p>
+            <div class="p-card-text">As plataformas usam dados dos resultados anteriores e opiniões de especialistas
+              para determinar as suas ODDs mas será que é possível prever as ODDs só com base nos resultados anteriores?
+            </div>
           </div>
         </div>
       </div>
     </div>
 
-    
 
-    <div class="container" data-aos="fade-left">
+
+    <div class="container" data-aos="zoom-in" data-aos-duraction="300">
       <div class="row">
         <div class="col-md-12 col-sm-12 col-xm-12">
           <div class="m-auto mr-auto">
             <div class="card-bory sd-8">
-              <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed fugiat soluta corrupti
-                molestiae nemo accusamus unde reprehenderit nisi voluptate enim asperiores ratione at culpa animi
-                possimus numquam praesentium, adipisci autem.</p>
-            </div>
-            <div id='chart' class='card-body sd-8' ”></div>
+              
+            <div class="h2">Primeiro apresentamos os 20 times</div>
+            <div id='chart1' class='card-body col-sm-10 col-md-10 col-xm-10 row-'></div>
           </div>
         </div>
       </div>
     </div>
+
+    <div class="container" data-aos="zoom-in" data-aos-duraction="300">
+      <div class="row">
+        <div class="col-md-12 col-sm-12 col-xm-12">
+          <div class="m-auto mr-auto">
+            <div class="card-bory sd-8">
+              
+            <div class="h2">Em seguida, as plataformas de apostas</div>
+            <div id='chart2' class='card-body col-sm-10 col-md-10 col-xm-10 row-'></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container" data-aos="zoom-in" data-aos-duraction="300">
+      <div class="row">
+        <div class="col-md-12 col-sm-12 col-xm-12">
+          <div class="m-auto mr-auto">
+            <div class="card-bory sd-8">
+              
+            <div class="h2">Em seguida, as plataformas de apostas</div>
+            <div id='chart3' class='card-body col-sm-10 col-md-10 col-xm-10 row-'></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container" data-aos="zoom-in" data-aos-duraction="300">
+      <div class="row">
+        <div class="col-md-12 col-sm-12 col-xm-12">
+          <div class="m-auto mr-auto">
+            <div class="card-bory sd-8">
+              
+            <div class="h2">Em seguida, as plataformas de apostas</div>
+            <div id='chart4' class='card-body col-sm-10 col-md-10 col-xm-10 row-'></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container" data-aos="zoom-in" data-aos-duraction="300">
+      <div class="row">
+        <div class="col-md-12 col-sm-12 col-xm-12">
+          <div class="m-auto mr-auto">
+            <div class="card-bory sd-8">
+              
+            <div class="h2">Em seguida, as plataformas de apostas</div>
+            <div id='chart5' class='card-body col-sm-10 col-md-10 col-xm-10 row-'></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container" data-aos="zoom-in" data-aos-duraction="300">
+      <div class="row">
+        <div class="col-md-12 col-sm-12 col-xm-12">
+          <div class="m-auto mr-auto">
+            <div class="card-bory sd-8">
+              
+            <div class="h2">Em seguida, as plataformas de apostas</div>
+            <div id='chart6' class='card-body col-sm-10 col-md-10 col-xm-10 row-'></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
   </main>
 
 </body>
@@ -134,8 +203,23 @@
 </script>
 <script src='https://cdn.plot.ly/plotly-latest.min.js'></script>
 <script type='text/javascript'>
-  var graphs = {{ graphJSON | safe}};
-  Plotly.plot('chart', graphs, {});
+  var graphs1 = {{ graph1JSON | safe}};
+  Plotly.plot('chart1', graphs1, {});
+
+  var graphs2 = {{ graph2JSON | safe}};
+  Plotly.plot('chart2', graphs2, {});
+
+  var graphs3 = {{ graph3JSON | safe}};
+  Plotly.plot('chart3', graphs3, {});
+
+  var graphs4 = {{ graph4JSON | safe}};
+  Plotly.plot('chart4', graphs4, {});
+
+  var graphs5 = {{ graph5JSON | safe}};
+  Plotly.plot('chart5', graphs5, {});
+
+  var graphs6 = {{ graph6JSON | safe}};
+  Plotly.plot('chart6', graphs6, {});
 </script>
 
 </html>
