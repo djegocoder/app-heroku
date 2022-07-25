@@ -1,0 +1,1313 @@
+{
+  "data": [
+    {
+      "geo": "geo",
+      "hovertemplate": "<b>%{hovertext}</b><br><br>Alliaz Arena",
+      "hovertext": [
+        "Palmeiras"
+      ],
+      "lat": [
+        -23.66111
+      ],
+      "legendgroup": "Palmeiras",
+      "lon": [
+        -46.67806
+      ],
+      "marker": {
+        "color": "#636efa",
+        "opacity": 0.5,
+        "symbol": "circle",
+        "size": 20
+      },
+      "mode": "markers",
+      "name": "Palmeiras",
+      "showlegend": true,
+      "type": "scattergeo"
+    },
+    {
+      "geo": "geo",
+      "hovertemplate": "<b>%{hovertext}</b><br><br><extra></extra>",
+      "hovertext": [
+        "Corinthians"
+      ],
+      "lat": [
+        -23.66111
+      ],
+      "legendgroup": "Corinthians",
+      "lon": [
+        -46.47806
+      ],
+      "marker": {
+        "color": "#636efa",
+        "opacity": 0.5,
+        "symbol": "diamond",
+        "size": 20
+      },
+      "mode": "markers",
+      "name": "Corinthians",
+      "showlegend": true,
+      "type": "scattergeo"
+    },
+    {
+      "geo": "geo",
+      "hovertemplate": "<b>%{hovertext}</b><br><br>Times=Internacional<br>Latidude=%{lat}<br>Longitude=%{lon}<extra></extra>",
+      "hovertext": [
+        "Internacional"
+      ],
+      "lat": [
+        -30.06556
+      ],
+      "legendgroup": "Internacional",
+      "lon": [
+        -51.23583
+      ],
+      "marker": {
+        "color": "#636efa",
+        "opacity": 0.5,
+        "symbol": "square"
+      },
+      "mode": "markers",
+      "name": "Internacional",
+      "showlegend": true,
+      "type": "scattergeo"
+    },
+    {
+      "geo": "geo",
+      "hovertemplate": "<b>%{hovertext}</b><br><br>Times=Atlético MG<br>Latidude=%{lat}<br>Longitude=%{lon}<extra></extra>",
+      "hovertext": [
+        "Atlético MG"
+      ],
+      "lat": [
+        -19.85444
+      ],
+      "legendgroup": "Atlético MG",
+      "lon": [
+        -43.97111
+      ],
+      "marker": {
+        "color": "#636efa",
+        "opacity": 0.5,
+        "symbol": "x"
+      },
+      "mode": "markers",
+      "name": "Atlético MG",
+      "showlegend": true,
+      "type": "scattergeo"
+    },
+    {
+      "geo": "geo",
+      "hovertemplate": "<b>%{hovertext}</b><br><br>Times=Fluminense<br>Latidude=%{lat}<br>Longitude=%{lon}<extra></extra>",
+      "hovertext": [
+        "Fluminense"
+      ],
+      "lat": [
+        -22.90722
+      ],
+      "legendgroup": "Fluminense",
+      "lon": [
+        -43.23028
+      ],
+      "marker": {
+        "color": "#636efa",
+        "opacity": 0.5,
+        "symbol": "cross"
+      },
+      "mode": "markers",
+      "name": "Fluminense",
+      "showlegend": true,
+      "type": "scattergeo"
+    },
+    {
+      "geo": "geo",
+      "hovertemplate": "<b>%{hovertext}</b><br><br>Times=Athlético PR<br>Latidude=%{lat}<br>Longitude=%{lon}<extra></extra>",
+      "hovertext": [
+        "Athlético PR"
+      ],
+      "lat": [
+        -25.44833
+      ],
+      "legendgroup": "Athlético PR",
+      "lon": [
+        -49.27694
+      ],
+      "marker": {
+        "color": "#636efa",
+        "opacity": 0.5,
+        "symbol": "circle"
+      },
+      "mode": "markers",
+      "name": "Athlético PR",
+      "showlegend": true,
+      "type": "scattergeo"
+    },
+    {
+      "geo": "geo",
+      "hovertemplate": "<b>%{hovertext}</b><br><br>Times=São Paulo<br>Latidude=%{lat}<br>Longitude=%{lon}<extra></extra>",
+      "hovertext": [
+        "São Paulo"
+      ],
+      "lat": [
+        -23.61139
+      ],
+      "legendgroup": "São Paulo",
+      "lon": [
+        -46.72
+      ],
+      "marker": {
+        "color": "#636efa",
+        "opacity": 0.5,
+        "symbol": "diamond"
+      },
+      "mode": "markers",
+      "name": "São Paulo",
+      "showlegend": true,
+      "type": "scattergeo"
+    },
+    {
+      "geo": "geo",
+      "hovertemplate": "<b>%{hovertext}</b><br><br>Times=Santos<br>Latidude=%{lat}<br>Longitude=%{lon}<extra></extra>",
+      "hovertext": [
+        "Santos"
+      ],
+      "lat": [
+        -23.95111
+      ],
+      "legendgroup": "Santos",
+      "lon": [
+        -46.33889
+      ],
+      "marker": {
+        "color": "#636efa",
+        "opacity": 0.5,
+        "symbol": "square"
+      },
+      "mode": "markers",
+      "name": "Santos",
+      "showlegend": true,
+      "type": "scattergeo"
+    },
+    {
+      "geo": "geo",
+      "hovertemplate": "<b>%{hovertext}</b><br><br>Times=Flamengo<br>Latidude=%{lat}<br>Longitude=%{lon}<extra></extra>",
+      "hovertext": [
+        "Flamengo"
+      ],
+      "lat": [
+        -22.91222
+      ],
+      "legendgroup": "Flamengo",
+      "lon": [
+        -43.23028
+      ],
+      "marker": {
+        "color": "#636efa",
+        "opacity": 0.5,
+        "symbol": "x"
+      },
+      "mode": "markers",
+      "name": "Flamengo",
+      "showlegend": true,
+      "type": "scattergeo"
+    },
+    {
+      "geo": "geo",
+      "hovertemplate": "<b>%{hovertext}</b><br><br>Times=Botafogo<br>Latidude=%{lat}<br>Longitude=%{lon}<extra></extra>",
+      "hovertext": [
+        "Botafogo"
+      ],
+      "lat": [
+        -22.91222
+      ],
+      "legendgroup": "Botafogo",
+      "lon": [
+        -43.23028
+      ],
+      "marker": {
+        "color": "#636efa",
+        "opacity": 0.5,
+        "symbol": "cross"
+      },
+      "mode": "markers",
+      "name": "Botafogo",
+      "showlegend": true,
+      "type": "scattergeo"
+    },
+    {
+      "geo": "geo",
+      "hovertemplate": "<b>%{hovertext}</b><br><br>Times=Red Bull Bragantino<br>Latidude=%{lat}<br>Longitude=%{lon}<extra></extra>",
+      "hovertext": [
+        "Red Bull Bragantino"
+      ],
+      "lat": [
+        -22.96556
+      ],
+      "legendgroup": "Red Bull Bragantino",
+      "lon": [
+        -46.53694
+      ],
+      "marker": {
+        "color": "#636efa",
+        "opacity": 0.5,
+        "symbol": "circle"
+      },
+      "mode": "markers",
+      "name": "Red Bull Bragantino",
+      "showlegend": true,
+      "type": "scattergeo"
+    },
+    {
+      "geo": "geo",
+      "hovertemplate": "<b>%{hovertext}</b><br><br>Times=Goiás<br>Latidude=%{lat}<br>Longitude=%{lon}<extra></extra>",
+      "hovertext": [
+        "Goiás"
+      ],
+      "lat": [
+        -16.96556
+      ],
+      "legendgroup": "Goiás",
+      "lon": [
+        -49.26139
+      ],
+      "marker": {
+        "color": "#636efa",
+        "opacity": 0.5,
+        "symbol": "diamond"
+      },
+      "mode": "markers",
+      "name": "Goiás",
+      "showlegend": true,
+      "type": "scattergeo"
+    },
+    {
+      "geo": "geo",
+      "hovertemplate": "<b>%{hovertext}</b><br><br>Times=Cuiabá<br>Latidude=%{lat}<br>Longitude=%{lon}<extra></extra>",
+      "hovertext": [
+        "Cuiabá"
+      ],
+      "lat": [
+        -16.71111
+      ],
+      "legendgroup": "Cuiabá",
+      "lon": [
+        -56.12
+      ],
+      "marker": {
+        "color": "#636efa",
+        "opacity": 0.5,
+        "symbol": "square"
+      },
+      "mode": "markers",
+      "name": "Cuiabá",
+      "showlegend": true,
+      "type": "scattergeo"
+    },
+    {
+      "geo": "geo",
+      "hovertemplate": "<b>%{hovertext}</b><br><br>Times=Coritiba<br>Latidude=%{lat}<br>Longitude=%{lon}<extra></extra>",
+      "hovertext": [
+        "Coritiba"
+      ],
+      "lat": [
+        -25.42139
+      ],
+      "legendgroup": "Coritiba",
+      "lon": [
+        -49.27139
+      ],
+      "marker": {
+        "color": "#636efa",
+        "opacity": 0.5,
+        "symbol": "x"
+      },
+      "mode": "markers",
+      "name": "Coritiba",
+      "showlegend": true,
+      "type": "scattergeo"
+    },
+    {
+      "geo": "geo",
+      "hovertemplate": "<b>%{hovertext}</b><br><br>Times=América MG<br>Latidude=%{lat}<br>Longitude=%{lon}<extra></extra>",
+      "hovertext": [
+        "América MG"
+      ],
+      "lat": [
+        -19.90861
+      ],
+      "legendgroup": "América MG",
+      "lon": [
+        -43.91778
+      ],
+      "marker": {
+        "color": "#636efa",
+        "opacity": 0.5,
+        "symbol": "cross"
+      },
+      "mode": "markers",
+      "name": "América MG",
+      "showlegend": true,
+      "type": "scattergeo"
+    },
+    {
+      "geo": "geo",
+      "hovertemplate": "<b>%{hovertext}</b><br><br>Times=Avaí<br>Latidude=%{lat}<br>Longitude=%{lon}<extra></extra>",
+      "hovertext": [
+        "Avaí"
+      ],
+      "lat": [
+        -27.66639
+      ],
+      "legendgroup": "Avaí",
+      "lon": [
+        -48.53167
+      ],
+      "marker": {
+        "color": "#636efa",
+        "opacity": 0.5,
+        "symbol": "circle"
+      },
+      "mode": "markers",
+      "name": "Avaí",
+      "showlegend": true,
+      "type": "scattergeo"
+    },
+    {
+      "geo": "geo",
+      "hovertemplate": "<b>%{hovertext}</b><br><br>Times=Ceará<br>Latidude=%{lat}<br>Longitude=%{lon}<extra></extra>",
+      "hovertext": [
+        "Ceará"
+      ],
+      "lat": [
+        -3.746667
+      ],
+      "legendgroup": "Ceará",
+      "lon": [
+        -38.54528
+      ],
+      "marker": {
+        "color": "#636efa",
+        "opacity": 0.5,
+        "symbol": "diamond"
+      },
+      "mode": "markers",
+      "name": "Ceará",
+      "showlegend": true,
+      "type": "scattergeo"
+    },
+    {
+      "geo": "geo",
+      "hovertemplate": "<b>%{hovertext}</b><br><br>Times=Atlético GO<br>Latidude=%{lat}<br>Longitude=%{lon}<extra></extra>",
+      "hovertext": [
+        "Atlético GO"
+      ],
+      "lat": [
+        -16.67
+      ],
+      "legendgroup": "Atlético GO",
+      "lon": [
+        -49.28389
+      ],
+      "marker": {
+        "color": "#636efa",
+        "opacity": 0.5,
+        "symbol": "square"
+      },
+      "mode": "markers",
+      "name": "Atlético GO",
+      "showlegend": true,
+      "type": "scattergeo"
+    },
+    {
+      "geo": "geo",
+      "hovertemplate": "<b>%{hovertext}</b><br><br>Times=Juventude<br>Latidude=%{lat}<br>Longitude=%{lon}<extra></extra>",
+      "hovertext": [
+        "Juventude"
+      ],
+      "lat": [
+        -29.16222
+      ],
+      "legendgroup": "Juventude",
+      "lon": [
+        -51.17639
+      ],
+      "marker": {
+        "color": "#636efa",
+        "opacity": 0.5,
+        "symbol": "x"
+      },
+      "mode": "markers",
+      "name": "Juventude",
+      "showlegend": true,
+      "type": "scattergeo"
+    },
+    {
+      "geo": "geo",
+      "hovertemplate": "<b>%{hovertext}</b><br><br>Times=Fortaleza<br>Latidude=%{lat}<br>Longitude=%{lon}<extra></extra>",
+      "hovertext": [
+        "Fortaleza"
+      ],
+      "lat": [
+        -3.766944
+      ],
+      "legendgroup": "Fortaleza",
+      "lon": [
+        -38.57278
+      ],
+      "marker": {
+        "color": "#636efa",
+        "opacity": 0.5,
+        "symbol": "cross"
+      },
+      "mode": "markers",
+      "name": "Fortaleza",
+      "showlegend": true,
+      "type": "scattergeo"
+    }
+  ],
+  "layout": {
+    "template": {
+      "data": {
+        "histogram2dcontour": [
+          {
+            "type": "histogram2dcontour",
+            "colorbar": {
+              "outlinewidth": 0,
+              "ticks": ""
+            },
+            "colorscale": [
+              [
+                0,
+                "#0d0887"
+              ],
+              [
+                0.1111111111111111,
+                "#46039f"
+              ],
+              [
+                0.2222222222222222,
+                "#7201a8"
+              ],
+              [
+                0.3333333333333333,
+                "#9c179e"
+              ],
+              [
+                0.4444444444444444,
+                "#bd3786"
+              ],
+              [
+                0.5555555555555556,
+                "#d8576b"
+              ],
+              [
+                0.6666666666666666,
+                "#ed7953"
+              ],
+              [
+                0.7777777777777778,
+                "#fb9f3a"
+              ],
+              [
+                0.8888888888888888,
+                "#fdca26"
+              ],
+              [
+                1,
+                "#f0f921"
+              ]
+            ]
+          }
+        ],
+        "choropleth": [
+          {
+            "type": "choropleth",
+            "colorbar": {
+              "outlinewidth": 0,
+              "ticks": ""
+            }
+          }
+        ],
+        "histogram2d": [
+          {
+            "type": "histogram2d",
+            "colorbar": {
+              "outlinewidth": 0,
+              "ticks": ""
+            },
+            "colorscale": [
+              [
+                0,
+                "#0d0887"
+              ],
+              [
+                0.1111111111111111,
+                "#46039f"
+              ],
+              [
+                0.2222222222222222,
+                "#7201a8"
+              ],
+              [
+                0.3333333333333333,
+                "#9c179e"
+              ],
+              [
+                0.4444444444444444,
+                "#bd3786"
+              ],
+              [
+                0.5555555555555556,
+                "#d8576b"
+              ],
+              [
+                0.6666666666666666,
+                "#ed7953"
+              ],
+              [
+                0.7777777777777778,
+                "#fb9f3a"
+              ],
+              [
+                0.8888888888888888,
+                "#fdca26"
+              ],
+              [
+                1,
+                "#f0f921"
+              ]
+            ]
+          }
+        ],
+        "heatmap": [
+          {
+            "type": "heatmap",
+            "colorbar": {
+              "outlinewidth": 0,
+              "ticks": ""
+            },
+            "colorscale": [
+              [
+                0,
+                "#0d0887"
+              ],
+              [
+                0.1111111111111111,
+                "#46039f"
+              ],
+              [
+                0.2222222222222222,
+                "#7201a8"
+              ],
+              [
+                0.3333333333333333,
+                "#9c179e"
+              ],
+              [
+                0.4444444444444444,
+                "#bd3786"
+              ],
+              [
+                0.5555555555555556,
+                "#d8576b"
+              ],
+              [
+                0.6666666666666666,
+                "#ed7953"
+              ],
+              [
+                0.7777777777777778,
+                "#fb9f3a"
+              ],
+              [
+                0.8888888888888888,
+                "#fdca26"
+              ],
+              [
+                1,
+                "#f0f921"
+              ]
+            ]
+          }
+        ],
+        "heatmapgl": [
+          {
+            "type": "heatmapgl",
+            "colorbar": {
+              "outlinewidth": 0,
+              "ticks": ""
+            },
+            "colorscale": [
+              [
+                0,
+                "#0d0887"
+              ],
+              [
+                0.1111111111111111,
+                "#46039f"
+              ],
+              [
+                0.2222222222222222,
+                "#7201a8"
+              ],
+              [
+                0.3333333333333333,
+                "#9c179e"
+              ],
+              [
+                0.4444444444444444,
+                "#bd3786"
+              ],
+              [
+                0.5555555555555556,
+                "#d8576b"
+              ],
+              [
+                0.6666666666666666,
+                "#ed7953"
+              ],
+              [
+                0.7777777777777778,
+                "#fb9f3a"
+              ],
+              [
+                0.8888888888888888,
+                "#fdca26"
+              ],
+              [
+                1,
+                "#f0f921"
+              ]
+            ]
+          }
+        ],
+        "contourcarpet": [
+          {
+            "type": "contourcarpet",
+            "colorbar": {
+              "outlinewidth": 0,
+              "ticks": ""
+            }
+          }
+        ],
+        "contour": [
+          {
+            "type": "contour",
+            "colorbar": {
+              "outlinewidth": 0,
+              "ticks": ""
+            },
+            "colorscale": [
+              [
+                0,
+                "#0d0887"
+              ],
+              [
+                0.1111111111111111,
+                "#46039f"
+              ],
+              [
+                0.2222222222222222,
+                "#7201a8"
+              ],
+              [
+                0.3333333333333333,
+                "#9c179e"
+              ],
+              [
+                0.4444444444444444,
+                "#bd3786"
+              ],
+              [
+                0.5555555555555556,
+                "#d8576b"
+              ],
+              [
+                0.6666666666666666,
+                "#ed7953"
+              ],
+              [
+                0.7777777777777778,
+                "#fb9f3a"
+              ],
+              [
+                0.8888888888888888,
+                "#fdca26"
+              ],
+              [
+                1,
+                "#f0f921"
+              ]
+            ]
+          }
+        ],
+        "surface": [
+          {
+            "type": "surface",
+            "colorbar": {
+              "outlinewidth": 0,
+              "ticks": ""
+            },
+            "colorscale": [
+              [
+                0,
+                "#0d0887"
+              ],
+              [
+                0.1111111111111111,
+                "#46039f"
+              ],
+              [
+                0.2222222222222222,
+                "#7201a8"
+              ],
+              [
+                0.3333333333333333,
+                "#9c179e"
+              ],
+              [
+                0.4444444444444444,
+                "#bd3786"
+              ],
+              [
+                0.5555555555555556,
+                "#d8576b"
+              ],
+              [
+                0.6666666666666666,
+                "#ed7953"
+              ],
+              [
+                0.7777777777777778,
+                "#fb9f3a"
+              ],
+              [
+                0.8888888888888888,
+                "#fdca26"
+              ],
+              [
+                1,
+                "#f0f921"
+              ]
+            ]
+          }
+        ],
+        "mesh3d": [
+          {
+            "type": "mesh3d",
+            "colorbar": {
+              "outlinewidth": 0,
+              "ticks": ""
+            }
+          }
+        ],
+        "scatter": [
+          {
+            "fillpattern": {
+              "fillmode": "overlay",
+              "size": 10,
+              "solidity": 0.2
+            },
+            "type": "scatter"
+          }
+        ],
+        "parcoords": [
+          {
+            "type": "parcoords",
+            "line": {
+              "colorbar": {
+                "outlinewidth": 0,
+                "ticks": ""
+              }
+            }
+          }
+        ],
+        "scatterpolargl": [
+          {
+            "type": "scatterpolargl",
+            "marker": {
+              "colorbar": {
+                "outlinewidth": 0,
+                "ticks": ""
+              }
+            }
+          }
+        ],
+        "bar": [
+          {
+            "error_x": {
+              "color": "#2a3f5f"
+            },
+            "error_y": {
+              "color": "#2a3f5f"
+            },
+            "marker": {
+              "line": {
+                "color": "#E5ECF6",
+                "width": 0.5
+              },
+              "pattern": {
+                "fillmode": "overlay",
+                "size": 10,
+                "solidity": 0.2
+              }
+            },
+            "type": "bar"
+          }
+        ],
+        "scattergeo": [
+          {
+            "type": "scattergeo",
+            "marker": {
+              "colorbar": {
+                "outlinewidth": 0,
+                "ticks": ""
+              }
+            }
+          }
+        ],
+        "scatterpolar": [
+          {
+            "type": "scatterpolar",
+            "marker": {
+              "colorbar": {
+                "outlinewidth": 0,
+                "ticks": ""
+              }
+            }
+          }
+        ],
+        "histogram": [
+          {
+            "marker": {
+              "pattern": {
+                "fillmode": "overlay",
+                "size": 10,
+                "solidity": 0.2
+              }
+            },
+            "type": "histogram"
+          }
+        ],
+        "scattergl": [
+          {
+            "type": "scattergl",
+            "marker": {
+              "colorbar": {
+                "outlinewidth": 0,
+                "ticks": ""
+              }
+            }
+          }
+        ],
+        "scatter3d": [
+          {
+            "type": "scatter3d",
+            "line": {
+              "colorbar": {
+                "outlinewidth": 0,
+                "ticks": ""
+              }
+            },
+            "marker": {
+              "colorbar": {
+                "outlinewidth": 0,
+                "ticks": ""
+              }
+            }
+          }
+        ],
+        "scattermapbox": [
+          {
+            "type": "scattermapbox",
+            "marker": {
+              "colorbar": {
+                "outlinewidth": 0,
+                "ticks": ""
+              }
+            }
+          }
+        ],
+        "scatterternary": [
+          {
+            "type": "scatterternary",
+            "marker": {
+              "colorbar": {
+                "outlinewidth": 0,
+                "ticks": ""
+              }
+            }
+          }
+        ],
+        "scattercarpet": [
+          {
+            "type": "scattercarpet",
+            "marker": {
+              "colorbar": {
+                "outlinewidth": 0,
+                "ticks": ""
+              }
+            }
+          }
+        ],
+        "carpet": [
+          {
+            "aaxis": {
+              "endlinecolor": "#2a3f5f",
+              "gridcolor": "white",
+              "linecolor": "white",
+              "minorgridcolor": "white",
+              "startlinecolor": "#2a3f5f"
+            },
+            "baxis": {
+              "endlinecolor": "#2a3f5f",
+              "gridcolor": "white",
+              "linecolor": "white",
+              "minorgridcolor": "white",
+              "startlinecolor": "#2a3f5f"
+            },
+            "type": "carpet"
+          }
+        ],
+        "table": [
+          {
+            "cells": {
+              "fill": {
+                "color": "#EBF0F8"
+              },
+              "line": {
+                "color": "white"
+              }
+            },
+            "header": {
+              "fill": {
+                "color": "#C8D4E3"
+              },
+              "line": {
+                "color": "white"
+              }
+            },
+            "type": "table"
+          }
+        ],
+        "barpolar": [
+          {
+            "marker": {
+              "line": {
+                "color": "#E5ECF6",
+                "width": 0.5
+              },
+              "pattern": {
+                "fillmode": "overlay",
+                "size": 10,
+                "solidity": 0.2
+              }
+            },
+            "type": "barpolar"
+          }
+        ],
+        "pie": [
+          {
+            "automargin": true,
+            "type": "pie"
+          }
+        ]
+      },
+      "layout": {
+        "autotypenumbers": "strict",
+        "colorway": [
+          "#636efa",
+          "#EF553B",
+          "#00cc96",
+          "#ab63fa",
+          "#FFA15A",
+          "#19d3f3",
+          "#FF6692",
+          "#B6E880",
+          "#FF97FF",
+          "#FECB52"
+        ],
+        "font": {
+          "color": "#2a3f5f"
+        },
+        "hovermode": "closest",
+        "hoverlabel": {
+          "align": "left"
+        },
+        "paper_bgcolor": "white",
+        "plot_bgcolor": "#E5ECF6",
+        "polar": {
+          "bgcolor": "#E5ECF6",
+          "angularaxis": {
+            "gridcolor": "white",
+            "linecolor": "white",
+            "ticks": ""
+          },
+          "radialaxis": {
+            "gridcolor": "white",
+            "linecolor": "white",
+            "ticks": ""
+          }
+        },
+        "ternary": {
+          "bgcolor": "#E5ECF6",
+          "aaxis": {
+            "gridcolor": "white",
+            "linecolor": "white",
+            "ticks": ""
+          },
+          "baxis": {
+            "gridcolor": "white",
+            "linecolor": "white",
+            "ticks": ""
+          },
+          "caxis": {
+            "gridcolor": "white",
+            "linecolor": "white",
+            "ticks": ""
+          }
+        },
+        "coloraxis": {
+          "colorbar": {
+            "outlinewidth": 0,
+            "ticks": ""
+          }
+        },
+        "colorscale": {
+          "sequential": [
+            [
+              0,
+              "#0d0887"
+            ],
+            [
+              0.1111111111111111,
+              "#46039f"
+            ],
+            [
+              0.2222222222222222,
+              "#7201a8"
+            ],
+            [
+              0.3333333333333333,
+              "#9c179e"
+            ],
+            [
+              0.4444444444444444,
+              "#bd3786"
+            ],
+            [
+              0.5555555555555556,
+              "#d8576b"
+            ],
+            [
+              0.6666666666666666,
+              "#ed7953"
+            ],
+            [
+              0.7777777777777778,
+              "#fb9f3a"
+            ],
+            [
+              0.8888888888888888,
+              "#fdca26"
+            ],
+            [
+              1,
+              "#f0f921"
+            ]
+          ],
+          "sequentialminus": [
+            [
+              0,
+              "#0d0887"
+            ],
+            [
+              0.1111111111111111,
+              "#46039f"
+            ],
+            [
+              0.2222222222222222,
+              "#7201a8"
+            ],
+            [
+              0.3333333333333333,
+              "#9c179e"
+            ],
+            [
+              0.4444444444444444,
+              "#bd3786"
+            ],
+            [
+              0.5555555555555556,
+              "#d8576b"
+            ],
+            [
+              0.6666666666666666,
+              "#ed7953"
+            ],
+            [
+              0.7777777777777778,
+              "#fb9f3a"
+            ],
+            [
+              0.8888888888888888,
+              "#fdca26"
+            ],
+            [
+              1,
+              "#f0f921"
+            ]
+          ],
+          "diverging": [
+            [
+              0,
+              "#8e0152"
+            ],
+            [
+              0.1,
+              "#c51b7d"
+            ],
+            [
+              0.2,
+              "#de77ae"
+            ],
+            [
+              0.3,
+              "#f1b6da"
+            ],
+            [
+              0.4,
+              "#fde0ef"
+            ],
+            [
+              0.5,
+              "#f7f7f7"
+            ],
+            [
+              0.6,
+              "#e6f5d0"
+            ],
+            [
+              0.7,
+              "#b8e186"
+            ],
+            [
+              0.8,
+              "#7fbc41"
+            ],
+            [
+              0.9,
+              "#4d9221"
+            ],
+            [
+              1,
+              "#276419"
+            ]
+          ]
+        },
+        "xaxis": {
+          "gridcolor": "white",
+          "linecolor": "white",
+          "ticks": "",
+          "title": {
+            "standoff": 15
+          },
+          "zerolinecolor": "white",
+          "automargin": true,
+          "zerolinewidth": 2
+        },
+        "yaxis": {
+          "gridcolor": "white",
+          "linecolor": "white",
+          "ticks": "",
+          "title": {
+            "standoff": 15
+          },
+          "zerolinecolor": "white",
+          "automargin": true,
+          "zerolinewidth": 2
+        },
+        "scene": {
+          "xaxis": {
+            "backgroundcolor": "#E5ECF6",
+            "gridcolor": "white",
+            "linecolor": "white",
+            "showbackground": true,
+            "ticks": "",
+            "zerolinecolor": "white",
+            "gridwidth": 2
+          },
+          "yaxis": {
+            "backgroundcolor": "#E5ECF6",
+            "gridcolor": "white",
+            "linecolor": "white",
+            "showbackground": true,
+            "ticks": "",
+            "zerolinecolor": "white",
+            "gridwidth": 2
+          },
+          "zaxis": {
+            "backgroundcolor": "#E5ECF6",
+            "gridcolor": "white",
+            "linecolor": "white",
+            "showbackground": true,
+            "ticks": "",
+            "zerolinecolor": "white",
+            "gridwidth": 2
+          }
+        },
+        "shapedefaults": {
+          "line": {
+            "color": "#2a3f5f"
+          }
+        },
+        "annotationdefaults": {
+          "arrowcolor": "#2a3f5f",
+          "arrowhead": 0,
+          "arrowwidth": 1
+        },
+        "geo": {
+          "bgcolor": "white",
+          "landcolor": "#E5ECF6",
+          "subunitcolor": "white",
+          "showland": true,
+          "showlakes": true,
+          "lakecolor": "white"
+        },
+        "title": {
+          "x": 0.05
+        },
+        "mapbox": {
+          "style": "light"
+        }
+      }
+    },
+    "geo": {
+      "domain": {
+        "x": [
+          0,
+          1
+        ],
+        "y": [
+          0,
+          1
+        ]
+      },
+      "center": {
+        "lat": -15,
+        "lon": -50
+      },
+      "projection": {
+        "type": "mercator"
+      },
+      "scope": "south america"
+    },
+    "legend": {
+      "title": {
+        "text": "Times"
+      },
+      "tracegroupgap": 0
+    },
+    "margin": {
+      "t": 60
+    }
+  }
+}

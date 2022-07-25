@@ -1,10 +1,10 @@
-Times,Sigla,Bet,Estádio,latitude,longitude,latitude_decimal,longitude_decimal
+Times,Sigla,Plataforma de Aposta,Estádio,latitude,longitude,latitude_decimal,longitude_decimal
 Palmeiras,PAL,Betfair,Allianz Parque,23°39’40”S,46°40’41”W,-23.66111,-46.67806
 Corinthians,COR,Galera.bet,Neo Química Arena,23°39’40”S,46°28’41”W,-23.66111,-46.47806
-Internacional,INT,Betsul,Beira Rio,30°03’56”S,51°14’09”W,-30.06556,-51.23583
+Internacional,INT,EstrelaBet,Beira Rio,30°03’56”S,51°14’09”W,-30.06556,-51.23583
 Atlético MG,CAM,Betano,Mineirão,19°51’57”S,43°58’16”W,-19.85444,-43.97111
 Fluminense,FLU,Betano,Maracanã,22°54’44”S,43°13’49”W,-22.90722,-43.23028
-Athlético PR,CAP,Estrelabet*,Arena da Baixada,25°26’54”S,49°16’37”W,-25.44833,-49.27694
+Athlético PR,CAP,Estrelabet,Arena da Baixada,25°26’54”S,49°16’37”W,-25.44833,-49.27694
 São Paulo,SPA,Sportsbet.io,Morumbi,23°36’41”S,46°43’12”W,-23.61139,-46.72
 Santos,SAN,Pixbet,Vila Belmiro,23°57’04”S,46°20’20”W,-23.95111,-46.33889
 Flamengo,FLA,Pixbet,Maracanã,22°54’44”S,43°13’49”W,-22.91222,-43.23028

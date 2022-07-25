@@ -1,5 +1,5 @@
-
 import plotly.express as px
+import plotly.io as pio
 import plotly
 import json
 import pandas as pd
@@ -10,16 +10,14 @@ app = Flask(__name__)
 
 df = pd.read_csv('static/planilha.csv')
 
-fig1 = px.scatter_geo(df,lon='longitude_decimal',lat="latitude_decimal",hover_name="Times", scope="south america",
-        color="Times", size=[15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15],opacity=0.5,symbol="Estádio",center={"lat":-15,"lon":-50})
+fig1 = pio.read_json("static/grafico2.json")
 graph1JSON = json.dumps(fig1, cls=plotly.utils.PlotlyJSONEncoder)
 
-fig2 = px.scatter_geo(df,lon='longitude_decimal',lat="latitude_decimal",hover_name="Times", scope="south america",
-        color="Times", size=[15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15],opacity=0.5,symbol="Estádio",center={"lat":-15,"lon":-50})
+fig2 = pio.read_json("static/grafico1.json")
 graph2JSON = json.dumps(fig2, cls=plotly.utils.PlotlyJSONEncoder)
 
-fig3 = px.scatter_geo(df,lon='longitude_decimal',lat="latitude_decimal",hover_name="Times", scope="south america",
-        color="Times", size=[15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15],opacity=0.5,symbol="Estádio",center={"lat":-15,"lon":-50})
+fig3 = px.scatter_geo(df,lon='longitude_decimal',lat="latitude_decimal",hover_name="Times", scope="south america",color="Times",symbol="Plataforma de Aposta")
+pio.write_json(fig3,file="static/grafico2.json")
 graph3JSON = json.dumps(fig3, cls=plotly.utils.PlotlyJSONEncoder)
 
 fig4 = px.scatter_geo(df,lon='longitude_decimal',lat="latitude_decimal",hover_name="Times", scope="south america",
