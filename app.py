@@ -1,5 +1,6 @@
 import plotly.express as px
 import plotly.io as pio
+import plotly.graph_objects as go
 import plotly
 import json
 import pandas as pd
@@ -10,14 +11,31 @@ app = Flask(__name__)
 
 df = pd.read_csv('static/planilha.csv')
 
-fig1 = pio.read_json("static/grafico2.json")
+fig1 = pio.read_json("static/grafico1.json")
 graph1JSON = json.dumps(fig1, cls=plotly.utils.PlotlyJSONEncoder)
 
-fig2 = pio.read_json("static/grafico1.json")
+fig2 = go.Figure(data=[go.Sankey(
+    node = dict(
+      pad = 15,
+      thickness = 100,
+      line = dict(color = "black", width = 0.5),
+      label = ["Palmeiras","Corinthians","Internacional","Atlético MG","Fluminense","Atlético PR","São Paulo","Santos",
+                "Flamengo","Botafogo","Red Bull Bragantino","Goiás","Cuiabá","Coritiba","América MG","Avaí","Ceará","Atlétigo GO",
+                "Juventude","Fortaleza","Betfair","Galera.bet","Estrelabet","Betano","Sportsbet.io","Pixbet","Blaze.bet","Betpix365",
+                "LuckSports.bet","Dafabet","Betcris","Amulerobet"],
+      color = "#310c6b"
+    ),
+    link = dict(
+      source = [ 0, 1, 2, 3, 4, 5, 6, 7, 8, 9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31], # indices correspond to labels, eg A1, A2, A1, B1, ...
+      target = [20,21,22,23,23,22,24,25,25,26,27,25,28,29,25,25,30,31,25,30],
+      value =  [1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1]
+  ))])
+
+#fig2.update_layout(title_text="Basic Sankey Diagram", font_size=25)
 graph2JSON = json.dumps(fig2, cls=plotly.utils.PlotlyJSONEncoder)
 
-fig3 = px.scatter_geo(df,lon='longitude_decimal',lat="latitude_decimal",hover_name="Times", scope="south america",color="Times",symbol="Plataforma de Aposta")
-pio.write_json(fig3,file="static/grafico2.json")
+fig3 = px.scatter_geo(df,lon='longitude_decimal',lat="latitude_decimal",hover_name="Times", scope="south america",color="Times",)
+#pio.write_json(fig3,file="static/grafico2.json")
 graph3JSON = json.dumps(fig3, cls=plotly.utils.PlotlyJSONEncoder)
 
 fig4 = px.scatter_geo(df,lon='longitude_decimal',lat="latitude_decimal",hover_name="Times", scope="south america",
