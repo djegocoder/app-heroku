@@ -51,9 +51,18 @@ fig6 = px.scatter_geo(df,lon='longitude_decimal',lat="latitude_decimal",hover_na
 graph6JSON = json.dumps(fig6, cls=plotly.utils.PlotlyJSONEncoder)
 
 
-@app.route("/")
+@app.route("/bets")
 def index():
-    return render_template("layout.html",graph1JSON=graph1JSON,graph2JSON=graph2JSON,graph3JSON=graph3JSON,graph4JSON=graph4JSON,graph5JSON=graph5JSON,graph6JSON=graph6JSON)
+    return render_template("bet.html",graph1JSON=graph1JSON,graph2JSON=graph2JSON,graph3JSON=graph3JSON,graph4JSON=graph4JSON,graph5JSON=graph5JSON,graph6JSON=graph6JSON)
+
+@app.route("/")
+def resume():
+    return render_template("index.html")
+
+@app.route("/portifolio1")
+def portifolio():
+    return render_template("portfolio-details.html")
+
 
 if __name__ == "__main__":
     port = int(os.environ.get("PORT",5000))
